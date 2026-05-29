@@ -442,3 +442,46 @@ body {
   }
 
 }
+/* ===================== */
+/* MODO OSCURO AUTOMÁTICO */
+/* ===================== */
+
+@media (prefers-color-scheme: dark) {
+
+  body{
+    background:#1f1f1f;
+    color:#f5f5f5;
+  }
+
+  .card,
+  .hero-card,
+  .location-box{
+    background:#2b2b2b;
+    border-color:#444;
+  }
+
+  .card p,
+  .hero-text p,
+  .location-box p,
+  .section-title p{
+    color:#ddd;
+  }
+
+  .section-title h2,
+  .hero-text h2,
+  .category-title,
+  .location-box h2{
+    color:#ff7cbc;
+  }
+
+  .btn-secondary{
+    background:#333;
+    color:white;
+    border-color:#555;
+  }
+
+  .footer{
+    background:#1a1a1a;
+  }
+
+}
