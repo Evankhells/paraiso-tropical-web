@@ -485,3 +485,10 @@ body {
   }
 
 }
+.price,
+.sizes span{
+  background:#ffd83d;
+  color:#000;
+  font-weight:700;
+  box-shadow:0 0 10px rgba(255,216,61,.25);
+}
