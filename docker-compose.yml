@@ -1,7 +1,15 @@
 services:
+
   web:
     build: .
     container_name: paraiso-tropical
     ports:
       - "8080:80"
-    restart: unless-stopped
+
+  spark:
+    image: spark
+    container_name: spark
+    volumes:
+      - ./data:/data
+      - ./spark:/app
+    command: tail -f /dev/null
